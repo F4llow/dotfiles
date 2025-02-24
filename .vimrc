@@ -1,5 +1,9 @@
 "My .vimrc file:
 
+"get rid of misclicking L instead of : and getting sent to the bottom of the
+"file lol
+nnoremap L <Nop>
+
 "Ctrl + hjkl = ← ↓ ↑ → (in all modes)
 noremap <C-h> <Left>
 noremap <C-j> <Down>
